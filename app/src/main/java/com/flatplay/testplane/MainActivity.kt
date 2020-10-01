@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.widget.TextView
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
 
 class MainActivity : AppCompatActivity() {
@@ -22,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         val space:LiveData<String> = mainViewModel.getInitialCount()
         space.observe(this, Observer {
-            _spaceOccupiedText.setText(it)
+            _spaceOccupiedText.text = it
         })
 
     }
