@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "670744601516",
+    "firebase_url": "https://testplane-6a393.firebaseio.com",
+    "project_id": "testplane-6a393",
+    "storage_bucket": "testplane-6a393.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670744601516:android:338a0e377a9310b3cd1009",
+        "android_client_info": {
+          "package_name": "com.flatplay.testplane"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "670744601516-nagf4ri546al4abjeneauinhlldk58or.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flatplay.testplane",
+            "certificate_hash": "3956d9cfdd9d7c1b5ca60e3496bc10b835c425fd"
+          }
+        },
+        {
+          "client_id": "670744601516-akq627e2ksuhbklthvdnjvio005kgful.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxPlVmUDx1aMDNuos4TKp5o2sjLelGAcQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "670744601516-akq627e2ksuhbklthvdnjvio005kgful.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
